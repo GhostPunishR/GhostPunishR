@@ -1,95 +1,74 @@
-<div align="center">
+## Statistiques GitHub
 
-# 👋 Salut, moi c'est GhostPunishR
-
-### Développement, open source et projets communautaires
-
-[![GitHub followers](https://img.shields.io/github/followers/GhostPunishR?style=for-the-badge&logo=github&label=Followers)](https://github.com/GhostPunishR?tab=followers)
-[![Profile views](https://komarev.com/ghpvc/?username=GhostPunishR&style=for-the-badge&color=blueviolet)](https://github.com/GhostPunishR)
-
-</div>
-
----
-
-## 🚀 À propos
-
-- 🔧 Je travaille sur des projets open-source autour de **rAthena**, **FluxCP** et d'outils communautaires.
-- 🧪 J'aime expérimenter avec l'émulation, les bots Discord et l'automatisation.
-- 📚 Objectif : garder des projets propres, utiles et faciles à maintenir.
-
----
-
-## 📊 Statistiques GitHub
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" alt="Statistiques GitHub" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Langages les plus utilisés" />
-</div>
-
-<br />
-
-<div align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=GhostPunishR&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub streak" />
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&show_icons=true&theme=tokyonight&hide_border=true&card_width=420" />
+    </td>
+    <td align="center">
+      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&layout=compact&theme=tokyonight&hide_border=true&card_width=420" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img width="520" src="https://streak-stats.demolab.com?user=GhostPunishR&theme=tokyonight&hide_border=true" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🏆 Trophées GitHub
+## Trophées GitHub
 
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img width="100%" src="https://trophy.ryglcloud.net/?username=GhostPunishR&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;column=-1&amp;margin-w=10&amp;margin-h=10&amp;v=4" alt="GitHub trophies" />
-  </a>
-</div>
+<p align="center">
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=GhostPunishR&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" />
+</p>
 
 ---
 
-## 📈 Activité
+## Activité
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true" alt="Graphique d'activité GitHub" />
-</div>
-
----
-
-## 🧩 Résumé du profil
-
-<div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GhostPunishR&amp;theme=tokyonight" alt="Repos par langage" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GhostPunishR&amp;theme=tokyonight" alt="Langages des commits" />
-</div>
-
-<br />
-
-<div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GhostPunishR&amp;theme=tokyonight" alt="Détails du profil" />
-</div>
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&theme=tokyo-night&hide_border=true" />
+</p>
 
 ---
 
-## 📌 Projets principaux
+## Résumé du profil
 
-<div align="center">
-  <a href="https://github.com/rAthenaFR/rAthenaFR">
-    <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&amp;repo=rAthenaFR&amp;theme=tokyonight&amp;hide_border=true" alt="rAthenaFR" />
-  </a>
-  <a href="https://github.com/rAthenaFR/FluxCPFR">
-    <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&amp;repo=FluxCPFR&amp;theme=tokyonight&amp;hide_border=true" alt="FluxCPFR" />
-  </a>
-</div>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GhostPunishR&theme=tokyonight" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GhostPunishR&theme=tokyonight" />
+</p>
 
-<br />
-
-<div align="center">
-  <a href="https://github.com/rAthenaFR/rAthenaFR-BotDiscord">
-    <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&amp;repo=rAthenaFR-BotDiscord&amp;theme=tokyonight&amp;hide_border=true" alt="rAthenaFR Bot Discord" />
-  </a>
-</div>
+<p align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GhostPunishR&theme=tokyonight" />
+</p>
 
 ---
 
-<div align="center">
+## Projets principaux
 
-✨ Merci de visiter mon profil ✨
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/rAthenaFR/rAthenaFR">
+        <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&repo=rAthenaFR&theme=tokyonight&hide_border=true" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rAthenaFR/FluxCPFR">
+        <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&repo=FluxCPFR&theme=tokyonight&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <a href="https://github.com/rAthenaFR/rAthenaFR-BotDiscord">
+        <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&repo=rAthenaFR-BotDiscord&theme=tokyonight&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-</div>
+---
