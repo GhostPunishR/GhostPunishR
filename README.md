@@ -1,10 +1,4 @@
-# 👋 Bienvenue sur mon profil GitHub !
-
-Je suis **GhostPunishR**, développeur passionné par le code et les projets innovants. Explorez mes contributions et projets ci-dessous !
-
----
-
-## 📊 Statistiques GitHub
+## Statistiques GitHub
 
 <table>
   <tr>
@@ -24,7 +18,7 @@ Je suis **GhostPunishR**, développeur passionné par le code et les projets inn
 
 ---
 
-## 📈 Activité
+## Activité
 
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&theme=tokyo-night&hide_border=true" />
@@ -32,7 +26,7 @@ Je suis **GhostPunishR**, développeur passionné par le code et les projets inn
 
 ---
 
-## 🎯 Résumé du profil
+## Résumé du profil
 
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GhostPunishR&theme=tokyonight" />
@@ -50,7 +44,7 @@ Je suis **GhostPunishR**, développeur passionné par le code et les projets inn
 
 ---
 
-## 🚀 Projets principaux
+## Projets principaux
 
 <table>
   <tr>
@@ -76,7 +70,7 @@ Je suis **GhostPunishR**, développeur passionné par le code et les projets inn
 
 ---
 
-## 🛠️ Technologies & Compétences
+## Technologies & Compétences
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,ts,python,java,c,cpp,php,react,nodejs,github,git,docker,linux,vscode" />
@@ -84,16 +78,3 @@ Je suis **GhostPunishR**, développeur passionné par le code et les projets inn
 
 ---
 
-## 📞 Connectons-nous !
-
-<p align="center">
-  <a href="https://github.com/GhostPunishR">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <i>⭐ N'hésite pas à explorer mes projets et à laisser une star si tu aimes ce que tu vois !</i>
-</p>
