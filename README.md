@@ -70,11 +70,3 @@
 
 ---
 
-## Technologies & Compétences
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,java,c,cpp,php,react,nodejs,github,git,docker,linux,vscode" />
-</p>
-
----
-
