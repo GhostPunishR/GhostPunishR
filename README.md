@@ -1,12 +1,18 @@
-## Statistiques GitHub
+# 👋 Bienvenue sur mon profil GitHub !
+
+Je suis **GhostPunishR**, développeur passionné par le code et les projets innovants. Explorez mes contributions et projets ci-dessous !
+
+---
+
+## 📊 Statistiques GitHub
 
 <table>
   <tr>
     <td align="center">
-      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&show_icons=true&theme=tokyonight&hide_border=true&card_width=420" />
+      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&show_icons=true&theme=tokyonight&hide_border=true&card_width=420&count_private=true" />
     </td>
     <td align="center">
-      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&layout=compact&theme=tokyonight&hide_border=true&card_width=420" />
+      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&layout=compact&theme=tokyonight&hide_border=true&card_width=420&count_private=true" />
     </td>
   </tr>
   <tr>
@@ -18,7 +24,7 @@
 
 ---
 
-## Activité
+## 📈 Activité
 
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&theme=tokyo-night&hide_border=true" />
@@ -26,7 +32,7 @@
 
 ---
 
-## Résumé du profil
+## 🎯 Résumé du profil
 
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GhostPunishR&theme=tokyonight" />
@@ -37,9 +43,14 @@
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GhostPunishR&theme=tokyonight" />
 </p>
 
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=GhostPunishR&theme=tokyonight" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GhostPunishR&theme=tokyonight" />
+</p>
+
 ---
 
-## Projets principaux
+## 🚀 Projets principaux
 
 <table>
   <tr>
@@ -64,3 +75,25 @@
 </table>
 
 ---
+
+## 🛠️ Technologies & Compétences
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,java,c,cpp,php,react,nodejs,github,git,docker,linux,vscode" />
+</p>
+
+---
+
+## 📞 Connectons-nous !
+
+<p align="center">
+  <a href="https://github.com/GhostPunishR">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>⭐ N'hésite pas à explorer mes projets et à laisser une star si tu aimes ce que tu vois !</i>
+</p>
