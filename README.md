@@ -44,29 +44,3 @@
 
 ---
 
-## Projets principaux
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/rAthenaFR/rAthenaFR">
-        <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&repo=rAthenaFR&theme=tokyonight&hide_border=true" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/rAthenaFR/FluxCPFR">
-        <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&repo=FluxCPFR&theme=tokyonight&hide_border=true" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <a href="https://github.com/rAthenaFR/rAthenaFR-BotDiscord">
-        <img width="420" src="https://github-readme-stats.vercel.app/api/pin/?username=rAthenaFR&repo=rAthenaFR-BotDiscord&theme=tokyonight&hide_border=true" />
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
