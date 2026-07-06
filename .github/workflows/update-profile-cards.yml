@@ -29,7 +29,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=2077&hide_border=true&card_width=420
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&card_width=420&bg_color=141321&title_color=FF0055&text_color=03D8F3&icon_color=FCEE0C&ring_color=FF0055
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -38,7 +38,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=2077&hide_border=true&card_width=420
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&card_width=420&bg_color=141321&title_color=FF0055&text_color=03D8F3
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -46,7 +46,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${{ github.repository_owner }}&theme=2077&hide_border=true
+          options: user=${{ github.repository_owner }}&hide_border=true&background=141321&stroke=FF0055&ring=FF0055&fire=FCEE0C&currStreakLabel=03D8F3&sideLabels=03D8F3&currStreakNum=FCEE0C&sideNums=FCEE0C&dates=03D8F3
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
