@@ -3,10 +3,10 @@
 <table>
   <tr>
     <td align="center">
-      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&show_icons=true&theme=tokyonight&hide_border=true&card_width=420&count_private=true" />
+      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&show_icons=true&theme=tokyonight&hide_border=true&card_width=420" />
     </td>
     <td align="center">
-      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&layout=compact&theme=tokyonight&hide_border=true&card_width=420&count_private=true" />
+      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&layout=compact&theme=tokyonight&hide_border=true&card_width=420" />
     </td>
   </tr>
   <tr>
@@ -41,6 +41,3 @@
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=GhostPunishR&theme=tokyonight" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GhostPunishR&theme=tokyonight" />
 </p>
-
----
-
