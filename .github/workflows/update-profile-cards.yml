@@ -1,30 +1,22 @@
-# À placer dans : .github/workflows/update-profile-cards.yml
-# Dépôt : GhostPunishR/GhostPunishR
-#
-# Génère les cartes stats, top-langs et streak en SVG statiques,
-# commit directement dans le dépôt. Plus aucune dépendance aux
-# serveurs publics Vercel/Demolab pour ces 3 cartes locales.
-
 name: Update profile cards
 
 on:
   schedule:
-    - cron: "0 3 * * *" # Tous les jours à 03:00 UTC
+    - cron: "0 3 * * *"
   push:
     paths:
-      - ".github/workflows/update-profile-cards.yml" # Relance si le workflow est modifié
-  workflow_dispatch: # Lancement manuel depuis l'onglet Actions
+      - ".github/workflows/update-profile-cards.yml"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Nécessaire pour committer les SVG
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
 
-      # ---- Carte "GitHub Stats" (étoiles, commits, PRs, issues, rank) ----
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -33,7 +25,6 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ---- Carte "Top Languages" ----
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -42,7 +33,6 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ---- Carte "Streak" (contributions, série en cours, record) ----
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
@@ -50,7 +40,6 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ---- Commit des SVG générés ----
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
