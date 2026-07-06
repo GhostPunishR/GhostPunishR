@@ -33,7 +33,7 @@
 
 ---
 
-## 🛰️ Résumé du profil 2077
+## 🛰️ Résumé du profil
 
 <div align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GhostPunishR&theme=2077" alt="Profile Details" />
