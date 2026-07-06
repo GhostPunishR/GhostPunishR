@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ GHOSTPUNISHR // PROFILE 2077 ⚡
+# ⚡GHOSTPUNISHR⚡
 
 <img src="https://img.shields.io/badge/STATUS-ONLINE-03D8F3?style=for-the-badge&labelColor=141321" alt="Status Online" />
 <img src="https://img.shields.io/badge/THEME-2077-FF0055?style=for-the-badge&labelColor=141321" alt="Theme 2077" />
@@ -58,13 +58,3 @@
 </div>
 
 ---
-
-<div align="center">
-
-### ⚙️ SYSTEM MESSAGE
-
-`GhostPunishR profile loaded successfully.`  
-`Theme: 2077 stable mode`  
-`Connection: stable`  
-
-</div>
