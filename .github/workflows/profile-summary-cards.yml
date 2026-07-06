@@ -9,7 +9,10 @@ name: Profile summary cards
 
 on:
   schedule:
-    - cron: "0 4 * * *" # Tous les jours à 04:00 UTC (décalé d'1h pour éviter un conflit de push avec l'autre workflow)
+    - cron: "0 4 * * *" # Tous les jours à 04:00 UTC
+  push:
+    paths:
+      - ".github/workflows/profile-summary-cards.yml"
   workflow_dispatch:
 
 jobs:
@@ -24,11 +27,12 @@ jobs:
 
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # GITHUB_TOKEN suffit pour les stats publiques.
-          # Pour inclure les dépôts privés : crée un PAT (scopes repo + read:user),
-          # ajoute-le en secret (ex. SUMMARY_GITHUB_TOKEN) et remplace la ligne ci-dessous.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # SUMMARY_GITHUB_TOKEN est recommandé pour des stats plus complètes.
+          # Si le secret n'existe pas, le workflow utilise GITHUB_TOKEN.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "main"
-          UTC_OFFSET: 1 # Heure de Paris (passe à 2 en été si tu veux être précis, sinon laisse 1)
+          UTC_OFFSET: 2 # Heure de Paris en été ; remets 1 en hiver si tu veux être précis
+          EXCLUDE: ""
+          AUTO_PUSH: true
