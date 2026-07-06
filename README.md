@@ -11,10 +11,11 @@
 
 ## 🧬 Statistiques GitHub
 
-<div align="center">
-  <img width="420" src="./profile/stats.svg" alt="GitHub Stats" />
-  <img width="420" src="./profile/top-langs.svg" alt="Top Languages" />
-</div>
+<p align="center">
+  <img width="400" src="./profile/stats.svg" alt="GitHub Stats" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="400" src="./profile/top-langs.svg" alt="Top Languages" />
+</p>
 
 <br />
 
