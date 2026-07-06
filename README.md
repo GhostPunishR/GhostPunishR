@@ -5,10 +5,6 @@
 <img src="https://img.shields.io/badge/STATUS-ONLINE-03D8F3?style=for-the-badge&labelColor=141321" alt="Status Online" />
 <img src="https://img.shields.io/badge/GITHUB-GhostPunishR-FCEE0C?style=for-the-badge&logo=github&logoColor=FCEE0C&labelColor=141321" alt="GitHub GhostPunishR" />
 
-<br /><br />
-
-`Bienvenue dans le réseau` · `Cyberpunk profile 2077` · `Code / Stats / Activity`
-
 </div>
 
 ---
