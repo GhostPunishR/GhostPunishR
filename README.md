@@ -29,15 +29,15 @@
 ## Résumé du profil
 
 <p align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GhostPunishR&theme=tokyonight" alt="Profile Details" />
 </p>
 
 <p align="center">
-  <img width="100%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GhostPunishR&theme=tokyonight" alt="Repos per Language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GhostPunishR&theme=tokyonight" alt="Most Commit Language" />
 </p>
 
 <p align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=GhostPunishR&theme=tokyonight&utcOffset=2" alt="Productive Time" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GhostPunishR&theme=tokyonight" alt="Stats" />
 </p>
