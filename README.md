@@ -17,14 +17,14 @@
 ## 🧬 Statistiques GitHub
 
 <div align="center">
-  <img width="420" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&show_icons=true&theme=2077&hide_border=true&card_width=420" alt="GitHub Stats" />
-  <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&layout=compact&theme=2077&hide_border=true&card_width=420" alt="Top Languages" />
+  <img width="420" src="https://github-readme-stats.vercel.app/api?username=GhostPunishR&show_icons=true&hide_border=true&card_width=420&bg_color=141321&title_color=FF0055&text_color=03D8F3&icon_color=FCEE0C&ring_color=FF0055" alt="GitHub Stats" />
+  <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GhostPunishR&layout=compact&hide_border=true&card_width=420&bg_color=141321&title_color=FF0055&text_color=03D8F3" alt="Top Languages" />
 </div>
 
 <br />
 
 <div align="center">
-  <img width="520" src="https://streak-stats.demolab.com?user=GhostPunishR&theme=2077&hide_border=true" alt="GitHub Streak" />
+  <img width="520" src="https://streak-stats.demolab.com?user=GhostPunishR&hide_border=true&background=141321&stroke=FF0055&ring=FF0055&fire=FCEE0C&currStreakLabel=03D8F3&sideLabels=03D8F3&currStreakNum=FCEE0C&sideNums=FCEE0C&dates=03D8F3" alt="GitHub Streak" />
 </div>
 
 ---
@@ -32,7 +32,7 @@
 ## 🌃 Activité réseau
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&theme=react-dark&hide_border=true&bg_color=141321&color=03D8F3&line=FF0055&point=FCEE0C&area=true" alt="Activity Graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&hide_border=true&bg_color=141321&color=03D8F3&line=FF0055&point=FCEE0C&area=true&area_color=FF0055&title_color=FF0055" alt="Activity Graph" />
 </div>
 
 ---
@@ -64,7 +64,7 @@
 ### ⚙️ SYSTEM MESSAGE
 
 `GhostPunishR profile loaded successfully.`  
-`Theme: 2077`  
+`Theme: 2077 compatible mode`  
 `Connection: stable`  
 
 </div>
