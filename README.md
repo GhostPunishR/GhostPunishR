@@ -28,7 +28,7 @@
 ## 🌐 Activité réseau
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&hide_border=true&bg_color=141321&color=03D8F3&line=FF0055&point=FCEE0C&area=true&area_color=FF0055&title_color=FF0055" alt="Activity Graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&hide_border=true&bg_color=141321&color=03D8F3&line=FF0055&point=FCEE0C&area=true&area_color=FF0055" alt="Activity Graph" />
 </div>
 
 ---
