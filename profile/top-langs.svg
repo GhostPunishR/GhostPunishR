@@ -1,8 +1,8 @@
 
       <svg
         width="420"
-        height="140"
-        viewBox="0 0 420 140"
+        height="165"
+        viewBox="0 0 420 165"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="293.95"
+          width="239.16"
           height="8"
           fill="#A97BFF"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="293.95"
+          x="239.16"
           y="0"
-          width="73.15"
+          width="122.22"
           height="8"
           fill="#f34b7d"
         />
@@ -148,21 +148,31 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="367.1"
+          x="361.38"
           y="0"
-          width="11.64"
+          width="15.440000000000001"
           height="8"
-          fill="#b07219"
+          fill="#3572A5"
         />
       
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="368.74"
+          x="366.82"
           y="0"
-          width="11.26"
+          width="11.83"
           height="8"
           fill="#DA3434"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="368.65"
+          y="0"
+          width="11.35"
+          height="8"
+          fill="#b07219"
         />
       
       
@@ -171,28 +181,35 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#A97BFF" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Kotlin 79.44%
+        Kotlin 64.64%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 19.77%
+        C++ 33.03%
+      </text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Python 1.47%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#b07219" />
+      <circle cx="5" cy="6" r="5" fill="#DA3434" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Java 0.44%
+        CMake 0.50%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#DA3434" />
+      <circle cx="5" cy="6" r="5" fill="#b07219" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CMake 0.34%
+        Java 0.36%
       </text>
     </g>
   </g></g>
