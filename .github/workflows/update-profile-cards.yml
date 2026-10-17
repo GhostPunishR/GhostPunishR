@@ -4,16 +4,52 @@ on:
   schedule:
     - cron: "0 3 * * *"
   push:
+    branches: [main]
     paths:
       - ".github/workflows/update-profile-cards.yml"
+      - "scripts/**"
+      - "tests/**"
+  pull_request:
+    paths:
+      - ".github/workflows/update-profile-cards.yml"
+      - "scripts/**"
+      - "tests/**"
+      - "README.md"
   workflow_dispatch:
 
 concurrency:
-  group: update-profile-cards
+  group: update-profile-cards-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test graph refresh and local image references
+        run: python3 -m unittest discover -s tests -v
+      - name: Verify live GitHub contribution data
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime, timezone
+          import os
+          from scripts.update_profile_graphs import fetch_contributions, render_activity, validate_svg
+
+          username = os.environ["PROFILE_USERNAME"]
+          days = fetch_contributions(username, datetime.now(timezone.utc))
+          validate_svg(render_activity(days, username), "Contribution Graph")
+          print(f"Rendered activity graph from {len(days)} real GitHub contribution days.")
+          PY
+
   build:
+    needs: test
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
@@ -22,6 +58,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Refresh local activity and summary graphs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/update_profile_graphs.py --username "$PROFILE_USERNAME"
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
