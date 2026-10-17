@@ -3,7 +3,7 @@
 <desc id="desc">2026-09-17 to 2026-10-17; 423 contributions. Last day may be incomplete.</desc>
 <rect width="1100" height="300" rx="5" fill="#141321"/>
 <g font-family="Segoe UI, Ubuntu, sans-serif" fill="#03D8F3" font-size="13">
-<text x="550" y="32" text-anchor="middle" font-size="22">GhostPunishR — Contribution Graph</text>
+<text x="550" y="32" text-anchor="middle" font-size="22">GhostPunishR Contribution Graph</text>
 <path d="M60 240H1040" stroke="#03D8F3" stroke-opacity="0.15"/>
 <text x="48" y="245" text-anchor="end">0</text>
 <path d="M60 155.0H1040" stroke="#03D8F3" stroke-opacity="0.15"/>
