@@ -28,7 +28,7 @@
 ## 🌐 Activité réseau
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GhostPunishR&hide_border=true&bg_color=141321&color=03D8F3&line=FF0055&point=FCEE0C&area=true&area_color=FF0055" alt="Activity Graph" />
+  <img width="100%" src="./profile/activity-graph.svg" alt="Activity Graph" />
 </div>
 
 ---
@@ -36,21 +36,21 @@
 ## 🛰️ Résumé du profil
 
 <div align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GhostPunishR&theme=2077" alt="Profile Details" />
+  <img width="100%" src="./profile/profile-details.svg" alt="Profile Details" />
 </div>
 
 <br />
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GhostPunishR&theme=2077" alt="Repos per Language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=GhostPunishR&theme=2077" alt="Most Commit Language" />
+  <img width="49%" src="./profile/repos-per-language.svg" alt="Repos per Language" />
+  <img width="49%" src="./profile/most-commit-language.svg" alt="Most Commit Language" />
 </div>
 
 <br />
 
 <div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=GhostPunishR&theme=2077&utcOffset=2" alt="Productive Time" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GhostPunishR&theme=2077" alt="Stats" />
+  <img width="49%" src="./profile/productive-time.svg" alt="Productive Time" />
+  <img width="49%" src="./profile/summary-stats.svg" alt="Stats" />
 </div>
 
 ---
