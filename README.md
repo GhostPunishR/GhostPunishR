@@ -5,7 +5,6 @@
 
 </div>
 
----
 
 ## 🧬 Statistiques GitHub
 
@@ -21,7 +20,6 @@
   <img width="520" src="./profile/streak.svg" alt="GitHub Streak" />
 </div>
 
----
 
 ## 🌐 Activité réseau
 
@@ -29,7 +27,6 @@
   <img width="100%" src="./profile/activity-graph.svg" alt="Activity Graph" />
 </div>
 
----
 
 ## 🛰️ Résumé du profil
 
@@ -50,5 +47,3 @@
   <img width="49%" src="./profile/productive-time.svg" alt="Productive Time" />
   <img width="49%" src="./profile/summary-stats.svg" alt="Stats" />
 </div>
-
----

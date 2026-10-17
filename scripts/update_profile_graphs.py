@@ -52,7 +52,16 @@ def fetch_summary(name, username):
     if name == "productive-time":
         options["utcOffset"] = "2"
     url = "https://github-profile-summary-cards.vercel.app/api/cards/"
-    return request_bytes(url + endpoint + "?" + urlencode(options))
+    content = request_bytes(url + endpoint + "?" + urlencode(options))
+    if name == "profile-details":
+        root = ET.fromstring(content)
+        heading = root.find(f"./{SVG}g/{SVG}text")
+        if heading is None:
+            raise ValueError("Profile card has no heading")
+        heading.text = username
+        ET.register_namespace("", SVG[1:-1])
+        content = ET.tostring(root, encoding="utf-8")
+    return content
 
 
 def fetch_contributions(username, now):
@@ -109,7 +118,7 @@ def render_activity(days, username):
         '<rect width="1100" height="300" rx="5" fill="#141321"/>',
         '<g font-family="Segoe UI, Ubuntu, sans-serif" fill="#03D8F3" font-size="13">',
         f'<text x="550" y="32" text-anchor="middle" font-size="22">'
-        f'{escape(username)} — Contribution Graph</text>',
+        f'{escape(username)} Contribution Graph</text>',
     ]
     for fraction in (0, 0.5, 1):
         y = 240 - fraction * 170
