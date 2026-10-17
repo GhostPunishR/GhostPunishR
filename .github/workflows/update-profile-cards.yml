@@ -69,7 +69,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&hide_border=true&card_width=420&bg_color=141321&title_color=FF0055&text_color=03D8F3&icon_color=FCEE0C&ring_color=FF0055"
+          options: "username=${{ github.repository_owner }}&custom_title=${{ github.repository_owner }}&show_icons=true&hide_border=true&card_width=420&bg_color=141321&title_color=FF0055&text_color=03D8F3&icon_color=FCEE0C&ring_color=FF0055"
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
